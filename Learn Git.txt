@@ -1,0 +1,39 @@
+1.	$git init
+
+2.	$git config --global user.name "user name"
+3.	$git config --global user.email "user email"
+4.	$git config user.name "user name"
+5.	$git config user.email "user email"
+6.	$git config --list
+
+7.	$git status
+
+8.	$git add "file name"
+9.	$git add .
+10.	$git add --all
+
+11.	$git log 
+12.	$git log --oneline
+
+13.	$git checkout "code fite hobe"
+14.	git checkout master
+
+15. 	$git diff
+16.	$git diff --staged
+
+17.	$git show "code dite hobe"	
+
+18.	git rm file name
+19.	$git reset HEAD file name
+
+20.	$touch file name
+
+**new repository create kora pore link dite hobe tar por 2ta commend use korte hobe. ai 2ta commend github a deya thakbe.
+
+21. 	$git push
+
+
+22.	$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+23.	$ eval $(ssh-agent -s)
+24.	$ ssh-add ~/.ssh/id_rsa
+25.	$ clip < ~/.ssh/id_rsa.pub
