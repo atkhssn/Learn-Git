@@ -1,0 +1,31 @@
+## Tutorial About Git & GitHub ##
+
+* What is git?
+>> Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+Note: Git is not equal to GitHub
+
+## Theory of Git ##
+
+1. Working Directory থেকে Staging Area তে files পাঠাতে " $git add " command use করতে হয়। 
+
+2. Staging Area থেকে Local Repository তে files comment করে  পাঠাতে হয় " $git commit " command use করে।
+
+3. Local Repository থেকে Remote Repository তে files পাঠাতে " $git push " command use করতে হয়।
+
+4. Remote Repository থেকে Local Repository তে files নামিয়ে আনতে " $git fetch " command use করতে হয়।
+
+5. " $git clone" command use করতে হয় Remote Repository থেকে Local Computer এ files Download করার জন্যে।
+
+6. " $git pull" command use করলে Remote Repository থেকে Working Directory তে files Download করার পাশাপাশি Working Directory এর সাথে Remote Repository কে Update রাখে। 
+
+7. Working Directory এবং Staging Area এর মধ্যকার অবপস্থানের পার্থক্য দেখতে হলে " $git diff " command use করতে হয়।
+
+8. Working Directory এবং Local Repository এর মধ্যের পার্থক্য বোঝার জন্য " $git diff HEAD " command use করতে হয়।
+
+9. Working Directory এবং Local Repository এর files গুলো এক সাথে করতে " $git merge " command use করতে হয়। 
+
+10. Git থেকে file Delete করতে " $git rm " command use করতে হয়।
+
+
+** Plese open Learn Git.txt file to see all the git command >>
